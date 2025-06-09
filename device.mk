@@ -46,6 +46,9 @@ TARGET_HAS_FM := true
 PRODUCT_PACKAGES += \
     FM2
 
+# Dolby
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
