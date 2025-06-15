@@ -26,3 +26,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="rhodep_g-user 13 T1SUS33.1-124-6-16 5406e-b418a2 release-keys" \
     BuildFingerprint=motorola/rhodep_g/rhodep:13/T1SUS33.1-124-6-16/5406e-b418a2:user/release-keys \
     DeviceProduct=rhodep_g
+
