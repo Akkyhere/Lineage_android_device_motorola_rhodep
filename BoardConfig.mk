@@ -8,6 +8,9 @@ DEVICE_PATH := device/motorola/rhodep
 # Inherit from motorola sm6375-common
 include device/motorola/sm6375-common/BoardConfigCommon.mk
 
+#Sign key
+PRODUCT_USE_CUSTOM_RELEASE_KEYS := true
+
 # Audio
 AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 
