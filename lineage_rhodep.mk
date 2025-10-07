@@ -30,4 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # ADDITIONAL FLAGS
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
-WITH_GAPPS := true
+
+# Moto Camera 4
+TARGET_MOTCAMERA4 := rhodep
+TARGET_USES_MOTCAMERA4 := true
+
+$(call inherit-product, vendor/motorola/MotCamera4-sm6375/motcamera4.mk)
